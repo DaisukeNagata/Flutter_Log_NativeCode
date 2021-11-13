@@ -3,6 +3,10 @@
    <application
         android:label="flutter_log_nativecode"
         android:icon="@mipmap/ic_launcher">
+       <activity
+           android:name=".AppCompatActivity"
+           android:theme="@style/AppTheme">
+       </activity>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
